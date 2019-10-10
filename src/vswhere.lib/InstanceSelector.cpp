@@ -128,6 +128,10 @@ vector<ISetupInstancePtr> InstanceSelector::Select(_In_opt_ IEnumSetupInstances*
             L"12.0",
             L"11.0",
             L"10.0",
+            L"9.0",
+            L"8.0",
+            L"7.1",
+            L"7.0",
         };
 
         for (const auto version : versions)
